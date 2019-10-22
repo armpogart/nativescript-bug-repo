@@ -1,0 +1,15 @@
+TabStripItem {
+    color: yellow;
+    background-color: teal;
+    tint-color: red;
+
+    &:active {
+        background-color: aqua;
+    }
+
+    Image {
+        color: red;
+        background-color: red;
+        tint-color: red;
+    }
+}

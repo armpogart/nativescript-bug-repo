@@ -1,0 +1,42 @@
+<GridLayout>
+    <BottomNavigation>
+        <!-- The bottom tab UI is created via TabStrip (the containier) and TabStripItem (for each tab)-->
+        <TabStrip>
+            <TabStripItem>
+                <Label text="Home"></Label>
+                <Image src="res://home_black" tintColor="#FF0000"></Image>
+            </TabStripItem>
+            <TabStripItem title="Favorites" iconSource="res://favorite_black"></TabStripItem>
+            <TabStripItem title="Cart" iconSource="res://shopping_cart_black"></TabStripItem>
+            <TabStripItem title="Profile" iconSource="res://account_circle_black"></TabStripItem>
+            <TabStripItem title="Other" iconSource="res://more_horiz_black"></TabStripItem>
+        </TabStrip>
+
+        <!-- The number of TabContentItem components should corespond to the number of TabStripItem components -->
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Home Page" class="h2 text-center"></Label>
+            </GridLayout>
+        </TabContentItem>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Favorites Page" class="h2 text-center"></Label>
+            </GridLayout>
+        </TabContentItem>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Cart Page" class="h2 text-center"></Label>
+            </GridLayout>
+        </TabContentItem>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Profile Page" class="h2 text-center"></Label>
+            </GridLayout>
+        </TabContentItem>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Other Page" class="h2 text-center"></Label>
+            </GridLayout>
+        </TabContentItem>
+    </BottomNavigation>
+</GridLayout>
